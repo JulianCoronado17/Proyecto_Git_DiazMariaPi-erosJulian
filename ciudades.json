@@ -1,4 +1,6 @@
-
-bogota : {
-    codigo
+{   
+    "bogota":{
+    "codigo postal":423678,
+    "poblacion":4562156835,
+    "pais":"colombia"}
 }
