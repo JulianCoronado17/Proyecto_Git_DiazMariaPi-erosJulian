@@ -1,6 +1,12 @@
-{   
-    "bogota":{
-    "codigo postal":423678,
-    "poblacion":4562156835,
-    "pais":"colombia"}
+{
+    "cartagena": {
+        "codigo postal": "111",
+        "poblacion": "111111",
+        "pais": "colombia"
+    },
+    "medellin": {
+        "codigo postal": "5555",
+        "poblacion": "66666",
+        "pais": "colombia"
+    }
 }
