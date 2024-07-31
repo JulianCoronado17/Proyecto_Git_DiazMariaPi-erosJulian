@@ -1,9 +1,9 @@
 import json
 
 
-def cargar_datos(RUTA_JSON, Tipo):
+def cargar_datos(Nombre_Archivo, Tipo):
     try:
-        with open(RUTA_JSON, "r") as file:
+        with open(Nombre_Archivo, "r") as file:
             Diccionario = json.load(file)
         print("INFORMACION ACTUALIZADA!!")
         return Diccionario
@@ -15,10 +15,10 @@ def cargar_datos(RUTA_JSON, Tipo):
         
 
 
-def guardar_datos(datos_json,RUTA_JSON):
+def guardar_datos(Diccionario,Nombre_Archivo):
     try:
-        contenido = json.dumps(datos_json, indent=4)
-        with open(RUTA_JSON, "w") as file:
+        contenido = json.dumps(Diccionario, indent=4)
+        with open(Nombre_Archivo, "w") as file:
             file.write(contenido)
         print("Datos guardados exitosamente!!")
     except Exception:
