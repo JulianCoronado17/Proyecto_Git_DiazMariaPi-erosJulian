@@ -77,8 +77,3 @@ def modificacion_ciudades():
                 print("Resultado no apto para modificacion de campo...")
         except Exception as e:
             print(f"Ocurrió un error: {e}")
-
-
-
-
-modificacion_ciudades()
