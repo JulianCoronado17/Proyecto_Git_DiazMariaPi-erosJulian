@@ -1,2 +1,2 @@
-# Proyecto_Git_DiazMariaPi-erosJulian
+# Proyecto_Git_DiazMariaPiñerosJulian
 Examen de Git 
